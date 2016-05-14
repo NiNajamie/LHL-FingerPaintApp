@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96F6DF7C1CE67B2600957C2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6DF7B1CE67B2600957C2B /* main.m */; };
+		96F6DF7F1CE67B2600957C2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6DF7E1CE67B2600957C2B /* AppDelegate.m */; };
+		96F6DF821CE67B2600957C2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6DF811CE67B2600957C2B /* ViewController.m */; };
+		96F6DF851CE67B2600957C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F6DF831CE67B2600957C2B /* Main.storyboard */; };
+		96F6DF871CE67B2600957C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F6DF861CE67B2600957C2B /* Assets.xcassets */; };
+		96F6DF8A1CE67B2600957C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F6DF881CE67B2600957C2B /* LaunchScreen.storyboard */; };
+		96F6DF931CE6858800957C2B /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F6DF921CE6858800957C2B /* DrawerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96F6DF771CE67B2600957C2B /* LHL-FingerPaintApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LHL-FingerPaintApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F6DF7B1CE67B2600957C2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F6DF7D1CE67B2600957C2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96F6DF7E1CE67B2600957C2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96F6DF801CE67B2600957C2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96F6DF811CE67B2600957C2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96F6DF841CE67B2600957C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96F6DF861CE67B2600957C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96F6DF891CE67B2600957C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96F6DF8B1CE67B2600957C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F6DF911CE6858800957C2B /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
+		96F6DF921CE6858800957C2B /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F6DF741CE67B2600957C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96F6DF6E1CE67B2600957C2B = {
+			isa = PBXGroup;
+			children = (
+				96F6DF791CE67B2600957C2B /* LHL-FingerPaintApp */,
+				96F6DF781CE67B2600957C2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96F6DF781CE67B2600957C2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F6DF771CE67B2600957C2B /* LHL-FingerPaintApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F6DF791CE67B2600957C2B /* LHL-FingerPaintApp */ = {
+			isa = PBXGroup;
+			children = (
+				96F6DF7D1CE67B2600957C2B /* AppDelegate.h */,
+				96F6DF7E1CE67B2600957C2B /* AppDelegate.m */,
+				96F6DF801CE67B2600957C2B /* ViewController.h */,
+				96F6DF811CE67B2600957C2B /* ViewController.m */,
+				96F6DF831CE67B2600957C2B /* Main.storyboard */,
+				96F6DF911CE6858800957C2B /* DrawerView.h */,
+				96F6DF921CE6858800957C2B /* DrawerView.m */,
+				96F6DF861CE67B2600957C2B /* Assets.xcassets */,
+				96F6DF881CE67B2600957C2B /* LaunchScreen.storyboard */,
+				96F6DF8B1CE67B2600957C2B /* Info.plist */,
+				96F6DF7A1CE67B2600957C2B /* Supporting Files */,
+			);
+			path = "LHL-FingerPaintApp";
+			sourceTree = "<group>";
+		};
+		96F6DF7A1CE67B2600957C2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F6DF7B1CE67B2600957C2B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F6DF761CE67B2600957C2B /* LHL-FingerPaintApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F6DF8E1CE67B2600957C2B /* Build configuration list for PBXNativeTarget "LHL-FingerPaintApp" */;
+			buildPhases = (
+				96F6DF731CE67B2600957C2B /* Sources */,
+				96F6DF741CE67B2600957C2B /* Frameworks */,
+				96F6DF751CE67B2600957C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LHL-FingerPaintApp";
+			productName = "LHL-FingerPaintApp";
+			productReference = 96F6DF771CE67B2600957C2B /* LHL-FingerPaintApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F6DF6F1CE67B2600957C2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Asuka Nakagawa";
+				TargetAttributes = {
+					96F6DF761CE67B2600957C2B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6A3B9S8TK9;
+					};
+				};
+			};
+			buildConfigurationList = 96F6DF721CE67B2600957C2B /* Build configuration list for PBXProject "LHL-FingerPaintApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96F6DF6E1CE67B2600957C2B;
+			productRefGroup = 96F6DF781CE67B2600957C2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F6DF761CE67B2600957C2B /* LHL-FingerPaintApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F6DF751CE67B2600957C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F6DF8A1CE67B2600957C2B /* LaunchScreen.storyboard in Resources */,
+				96F6DF871CE67B2600957C2B /* Assets.xcassets in Resources */,
+				96F6DF851CE67B2600957C2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F6DF731CE67B2600957C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F6DF821CE67B2600957C2B /* ViewController.m in Sources */,
+				96F6DF7F1CE67B2600957C2B /* AppDelegate.m in Sources */,
+				96F6DF7C1CE67B2600957C2B /* main.m in Sources */,
+				96F6DF931CE6858800957C2B /* DrawerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96F6DF831CE67B2600957C2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F6DF841CE67B2600957C2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96F6DF881CE67B2600957C2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F6DF891CE67B2600957C2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96F6DF8C1CE67B2600957C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96F6DF8D1CE67B2600957C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96F6DF8F1CE67B2600957C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LHL-FingerPaintApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.LHL-FingerPaintApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96F6DF901CE67B2600957C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LHL-FingerPaintApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.LHL-FingerPaintApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F6DF721CE67B2600957C2B /* Build configuration list for PBXProject "LHL-FingerPaintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F6DF8C1CE67B2600957C2B /* Debug */,
+				96F6DF8D1CE67B2600957C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F6DF8E1CE67B2600957C2B /* Build configuration list for PBXNativeTarget "LHL-FingerPaintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F6DF8F1CE67B2600957C2B /* Debug */,
+				96F6DF901CE67B2600957C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F6DF6F1CE67B2600957C2B /* Project object */;
+}
